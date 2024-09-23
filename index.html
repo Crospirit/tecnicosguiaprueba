@@ -9,6 +9,10 @@
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             color: #333;
+ -webkit-user-select: none; /* Safari */
+            -moz-user-select: none; /* Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Standard */
         }
         header {
             background-color: #003366; /* Azul oscuro */
@@ -134,7 +138,7 @@
             color: #003366; /* Azul oscuro */
         }
         h2 {
-            color: #ff0000; /* Rojo */
+            color: #FFA500; /* Color naranja */
         }
         h3 {
             color: #003366; /* Azul oscuro */
@@ -2109,16 +2113,13 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
     <li>Radiotransparente: Permite la realización de radiografías sin necesidad de retirar el dispositivo.</li>
     <li>Componentes: Incluye el inmovilizador, una almohada y dos barbuquejos.</li>
     <li>Accesorios: Se suministra con una bolsa de transporte y un manual de utilización.</li>
+
 </ol>
 
     </li>
 </ol>
 
-<h6>Consideraciones y Precauciones</h6>
-<ul>
-    <li>Revisión periódica: Revisar periódicamente la integridad del Emerkend y las cintas de inmovilización.</li>
-    <li>Capacitación del personal: Asegurarse de que el personal esté capacitado en el uso adecuado del Emerkend.</li>
-</ul></li>
+
     <li>Oxígeno en estacionamiento</li>
     <li>Oxígeno portátil</li>
     <li>Resucitador con entrada de oxígeno y máscaras y cánulas para todas las edades y depósito de oxígeno</li>
@@ -2359,205 +2360,148 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
  </section>
         <section id="simulacros">
             <h2>Simulacros</h2>
- <h1>Caso Práctico: TCE y Fractura de Extremidad en Adulto</h1>
 
-    <h3>Paciente:</h3>
-    <p>Varón, aproximadamente 25 años, encontrado inconsciente tras una caída de moto en la carretera Fonsagrada-Lugo.</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Clínico: TCE y fractura de extremidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+         }
+        h1 {
+            color: #003366; /* Azul oscuro */
+        }
+        h2 {
+            color: #ff0000; /* Rojo */
+        }
+        h3 {
+            color: #003366; /* Azul oscuro */
+        }
+        ul {
+            list-style-type: none;
+        }
+        li::before {
+            content: "• ";
+            color: #555;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .important {
+            background-color: #ffffcc;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #ffcc00;
+        }
+    </style>
+</head>
+<body>
 
-    <h3>Situación inicial:</h3>
-    <ul>
-        <li>El servicio de emergencias 061 avisa a los técnicos de la ambulancia debido a la proximidad (5 minutos) y solicita que acudan inmediatamente.</li>
-        <li>El equipo médico y de enfermería del PAC llegará más tarde, ya que se encuentra en un domicilio.</li>
-        <li>Hay niebla, lo que impide el vuelo del helicóptero.</li>
-        <li>Las Fuerzas de Orden Público (FOP) se desplazan desde Castroverde.</li>
-    </ul>
+    <div class="container">
+        <h1>Caso clínico: TCE y fractura de extremidad</h1>
 
-    <h3>Medidas de seguridad y manejo de la escena:</h3>
-    <ol>
-        <li>
-            <strong>Evaluación de la escena:</strong>
-            <ul>
-                <li>Verificar que la escena es segura antes de intervenir. Esto incluye la señalización, el uso de chalecos reflectantes, la delimitación del área y la evaluación de riesgos.</li>
-                <li>El acceso al lugar del accidente debe ser por el camino más seguro, corto y rápido.</li>
-                <li>Iniciar una valoración inmediata y global del suceso.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Técnico de transporte:</strong>
-            <ul>
-                <li>Si el equipo sanitario llega antes que las Fuerzas y Cuerpos de Seguridad del Estado, el técnico deberá balizar la zona.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Medidas de seguridad:</strong>
-            <ul>
-                <li>Señalización correcta e iluminación del lugar. Aparcar en el arcén, a más de 20 metros del accidente.</li>
-                <li>Prevención de accidentes secundarios: el personal debe caminar en sentido contrario a la circulación.</li>
-                <li>Evaluar la posibilidad de riesgos añadidos.</li>
-            </ul>
-        </li>
-    </ol>
+        <h2>Paciente:</h2>
+        <p>Varón, aproximadamente 25 años, encontrado inconsciente tras una caída de moto en la carretera Fonsagrada-Lugo.</p>
 
-    <h3>Evaluación ABCDE del paciente:</h3>
-    <ol>
-        <li>
-            <strong>A - Airway (Vía aérea):</strong>
-            <ul>
-                <li>El paciente tiene sangre en la cavidad oral que compromete la vía aérea.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>B - Breathing (Respiración):</strong>
-            <ul>
-                <li>El paciente presenta dificultad respiratoria, con una saturación de oxígeno (SO2) del 84%.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>C - Circulation (Circulación):</strong>
-            <ul>
-                <li>Comprobar el pulso, la frecuencia cardíaca (110 lpm) y la presión arterial (80/45 mmHg).</li>
-                <li>Detectar hemorragias. El paciente tiene una fractura abierta en la tibia.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>D - Disability (Discapacidad):</strong>
-            <ul>
-                <li>Evaluar el estado neurológico mediante la Escala de Coma de Glasgow. El paciente tiene una puntuación de 3, indicando un coma profundo.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>E - Exposure (Exposición):</strong>
-            <ul>
-                <li>Exponer al paciente para buscar otras lesiones y mantener la temperatura corporal.</li>
-            </ul>
-        </li>
-    </ol>
+        <h2>Situación inicial:</h2>
+        <p>El servicio de emergencias 061 avisa a los técnicos de la ambulancia debido a la proximidad (5 minutos) y solicita que acudan inmediatamente. El equipo médico y de enfermería del PAC llegará más tarde, ya que se encuentra en un domicilio. El helicóptero no puede volar debido a la niebla. Las Fuerzas de Orden Público (FOP) se desplazan desde Castroverde.</p>
 
-    <h3>Intervenciones iniciales:</h3>
-    <ol>
-        <li>
-            <strong>Comunicación con la Central del 061:</strong>
-            <ul>
-                <li>Informar sobre la situación, puntuación de Glasgow, signos vitales y todo lo detectado durante la evaluación. La central proporciona las siguientes indicaciones:</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Retirada del casco:</strong>
-            <ul>
-                <li>Se realiza con cuidado entre dos personas: una estabiliza la cabeza y el cuello, la otra retira el casco. Se observa otorragia (sangrado del oído).</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Aspiración:</strong>
-            <ul>
-                <li>Aspirar la sangre de la cavidad oral para evitar la aspiración.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Inmovilización cervical:</strong>
-            <ul>
-                <li>Aplicar un collarín cervical rígido.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Apertura de vías respiratorias:</strong>
-            <ul>
-                <li>Realizar tracción mandibular sin movilizar el cuello.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Colocación de cánula de Guedel:</strong>
-            <ul>
-                <li>Colocar si es necesario para mantener la vía aérea.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Administración de oxígeno:</strong>
-            <ul>
-                <li>Administrar oxígeno suplementario a través de una mascarilla con reservorio.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Control de hemorragias:</strong>
-            <ul>
-                <li>Lavar la herida con suero, aplicar un vendaje estéril y colocar una férula para inmovilizar la fractura abierta en la tibia.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Monitorización:</strong>
-            <ul>
-                <li>Monitorizar la saturación de oxígeno, la frecuencia cardíaca y la presión arterial.</li>
-            </ul>
-        </li>
-    </ol>
+        <h2>Medidas de seguridad y manejo de la escena</h2>
+        <h3>Evaluación de la escena:</h3>
+        <ul>
+            <li>Verificar que la escena es segura antes de intervenir. Señalización y uso de chalecos reflectantes.</li>
+            <li>El acceso al lugar del accidente debe ser por el camino más seguro, corto y rápido.</li>
+            <li>Iniciar una valoración inmediata y global del suceso.</li>
+        </ul>
 
-    <h3>Cambio en el estado del paciente:</h3>
-    <ul>
-        <li><strong>Evaluación:</strong> Antes del traslado, el paciente disminuye su frecuencia respiratoria a 8 rpm y su saturación baja al 75%.</li>
-        <li><strong>Intervención:</strong> Iniciar ventilación con BVM (ambú) a una frecuencia aproximada de 18 rpm y conectar oxígeno al BVM para mejorar la oxigenación.</li>
-    </ul>
+        <h3>Técnico de transporte:</h3>
+        <p>Si el equipo sanitario llega antes que las Fuerzas y Cuerpos de Seguridad del Estado, el técnico deberá balizar la zona.</p>
 
-    <h3>Llegada del equipo médico:</h3>
-    <ul>
-        <li><strong>Evaluación:</strong> El equipo médico llega antes del traslado. Se les transmite toda la información relevante sobre el estado del paciente y las intervenciones realizadas.</li>
-    </ul>
+        <h3>Medidas de seguridad:</h3>
+        <ul>
+            <li>Señalización correcta e iluminación del lugar. Aparcar en el arcén, a más de 20 metros del accidente.</li>
+            <li>Prevención de accidentes secundarios: caminar en sentido contrario a la circulación.</li>
+            <li>Evaluar posibles riesgos añadidos.</li>
+        </ul>
 
-    <h3>Traslado del paciente:</h3>
-    <ol>
-        <li>
-            <strong>Camilla de palas:</strong>
-            <ul>
-                <li>Utilizar una camilla de palas para transferir al paciente al colchón de vacío.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Colchón de vacío:</strong>
-            <ul>
-                <li>Este proporciona una inmovilización adecuada y se adapta al cuerpo del paciente, reduciendo el riesgo de movimientos indeseados.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Cabecera elevada:</strong>
-            <ul>
-                <li>Puede ser beneficiosa para reducir la presión intracraneal en pacientes con TCE.</li>
-            </ul>
-        </li>
-        <li>
-            <strong>Comunicación continua con el 061:</strong>
-            <ul>
-                <li>Mantener informado al 061 sobre la evolución del paciente, signos vitales, intervenciones realizadas y cualquier cambio en su estado.</li>
-            </ul>
-        </li>
-    </ol>
+        <h2>Evaluación ABCDE del paciente</h2>
+        <h3>A - Airway (Vía aérea):</h3>
+        <p>El paciente tiene sangre en la cavidad oral que compromete la vía aérea.</p>
+
+        <h3>B - Breathing (Respiración):</h3>
+        <p>Dificultad respiratoria, saturación de oxígeno (SO2) del 84%.</p>
+
+        <h3>C - Circulation (Circulación):</h3>
+        <p>Frecuencia cardíaca de 110 lpm, presión arterial de 80/45 mmHg. Fractura abierta en la tibia con hemorragia.</p>
+
+        <h3>D - Disability (Discapacidad):</h3>
+        <p>Puntuación en la Escala de Coma de Glasgow de 3, indicando un coma profundo.</p>
+
+        <h3>E - Exposure (Exposición):</h3>
+        <p>Exponer al paciente para buscar otras lesiones y mantener la temperatura corporal.</p>
+
+        <h2>Intervenciones iniciales</h2>
+        <h3>Comunicación con la Central del 061:</h3>
+        <p>Informar sobre la situación y la puntuación de Glasgow. La central proporciona indicaciones.</p>
+
+        <h3>Retirada del casco:</h3>
+        <p>Realizada entre dos personas. Se observa otorragia (sangrado del oído).</p>
+
+        <h3>Aspiración:</h3>
+        <p>Aspirar la sangre de la cavidad oral para evitar la aspiración.</p>
+
+        <h3>Inmovilización cervical:</h3>
+        <p>Aplicar un collarín cervical rígido.</p>
+
+        <h3>Apertura de vías respiratorias:</h3>
+        <p>Tracción mandibular sin movilizar el cuello.</p>
+
+        <h3>Colocación de cánula de Guedel:</h3>
+        <p>Si es necesario para mantener la vía aérea.</p>
+
+        <h3>Administración de oxígeno:</h3>
+        <p>Administrar oxígeno suplementario con mascarilla y reservorio.</p>
+
+        <h3>Control de hemorragias:</h3>
+        <p>Lavar la herida con suero, aplicar un vendaje estéril y una férula para inmovilizar la fractura abierta en la tibia.</p>
+
+        <h3>Monitorización:</h3>
+        <p>Monitorizar la saturación de oxígeno, frecuencia cardíaca y presión arterial.</p>
+
+        <h2>Cambio en el estado del paciente</h2>
+        <h3>Evaluación:</h3>
+        <p>Antes del traslado, el paciente reduce su frecuencia respiratoria a 8 rpm y la saturación baja al 75%.</p>
+
+        <h3>Intervención:</h3>
+        <p>Iniciar ventilación con BVM (bolsa válvula mascarilla) a una frecuencia de 18 rpm con oxígeno.</p>
+
+        <h2>Llegada del equipo médico</h2>
+        <p>El equipo médico llega antes del traslado. Se transmite toda la información relevante sobre el estado del paciente.</p>
+
+        <h2>Traslado del paciente</h2>
+        <h3>Camilla de palas:</h3>
+        <p>Transferir al paciente al colchón de vacío para inmovilización adecuada.</p>
+
+        <h3>Cabecera elevada:</h3>
+        <p>Beneficiosa para reducir la presión intracraneal en pacientes con TCE.</p>
+
+        <h3>Comunicación continua con el 061:</h3>
+        <p>Mantener informado al 061 sobre la evolución del paciente durante el traslado.</p>
+    </div>
+
 </body>
 </html>
-            <h3>Pediatría</h3>
-            <p><h3>Casos Prácticos de Atención Politrauma en Pediatría</h3>
 
-    <h4>Caso Práctico 1: Traumatismo Craneoencefálico (TCE)</h4>
-    <p><strong>Situación:</strong> Un niño de 8 años sufre una caída desde una bicicleta y presenta pérdida de consciencia.</p>
-    <h5>Evaluación Inicial:</h5>
-    <ul>
-        <li>Utilizar la Escala de Coma de Glasgow (GCS) pediátrica y determinar una puntuación de 10.</li>
-        <li>Inmovilizar la columna cervical para prevenir lesiones adicionales.</li>
-        <li>Asegurar la vía aérea utilizando un Guedel si está inconsciente y administrar ventilación con Ambú si es necesario para mantener la saturación.</li>
-        <li>Evaluar la respiración y la circulación, y buscar signos de fracturas craneales o lesiones en el cuero cabelludo.</li>
-        <li>Comunicar la situación a la central de coordinación 061 para recibir instrucciones adicionales y preparar el traslado.</li>
-    </ul>
-    <h5>Manejo In Situ:</h5>
-    <ul>
-        <li>Administrar oxígeno suplementario si es necesario para mantener una saturación adecuada.</li>
-        <li>Controlar cualquier hemorragia en el cuero cabelludo aplicando presión directa.</li>
-        <li>Monitorizar los signos vitales, incluyendo la frecuencia cardíaca, la presión arterial y la saturación de oxígeno.</li>
-        <li>Mantener al niño en una posición segura y cómoda mientras se prepara para el traslado.</li>
-    </ul>
-    <h5>Traslado:</h5>
-    <ul>
-        <li>Mantener la cabeza del paciente elevada a 30 grados.</li>
-        <li>Colocar un collarín cervical correctamente para inmovilizar la columna cervical.</li>
-        <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
-        <li>Continuar monitorizando los signos vitales durante el traslado.</li>
-    </ul>
+           
+    
+
+            
  <title>Caso Clínico: Traumatismo torácico y fractura de fémur en el monte</title>
     <style>
         body {
@@ -2565,8 +2509,14 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
             line-height: 1.6;
             margin: 20px;
         }
-        h1, h2, h3 {
-            color: #2F4F4F;
+        h1 {
+            color: #003366; /* Azul oscuro */
+        }
+        h2 {
+            color: #ff0000; /* Rojo */
+        }
+        h3 {
+            color: #003366; /* Azul oscuro */
         }
         ul {
             list-style-type: none;
@@ -2673,80 +2623,8 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
 
     </div>
 
-    <h4>Caso Práctico 2: Traumatismo Torácico</h4>
-    <p><strong>Situación:</strong> Un niño de 12 años sufre una caída desde un árbol y presenta dificultad respiratoria.</p>
-    <h5>Evaluación Inicial:</h5>
-    <ul>
-        <li>Evaluar la respiración y buscar signos de neumotórax, como disminución de los sonidos respiratorios en un lado del tórax.</li>
-        <li>Inmovilizar la columna cervical para prevenir lesiones adicionales.</li>
-        <li>Asegurar la vía aérea utilizando un Guedel si está inconsciente y administrar ventilación con Ambú si es necesario para mantener la saturación.</li>
-        <li>Buscar signos de fracturas costales o lesiones en el tórax.</li>
-        <li>Comunicar la situación a la central de coordinación 061 para recibir instrucciones adicionales y preparar el traslado.</li>
-    </ul>
-    <h5>Manejo In Situ:</h5>
-    <ul>
-        <li>Administrar oxígeno si es necesario para mejorar la oxigenación.</li>
-        <li>Aplicar un vendaje oclusivo en cualquier herida abierta en el tórax para prevenir el neumotórax abierto.</li>
-        <li>Monitorizar los signos vitales, incluyendo la frecuencia respiratoria, la frecuencia cardíaca y la saturación de oxígeno.</li>
-        <li>Mantener al niño en una posición cómoda y segura mientras se prepara para el traslado.</li>
-    </ul>
-    <h5>Traslado:</h5>
-    <ul>
-        <li>Continuar administrando oxígeno y monitorizando los signos vitales durante el traslado.</li>
-        <li>Colocar un collarín cervical correctamente para inmovilizar la columna cervical.</li>
-        <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
-    </ul>
+    
 
-    <h4>Caso Práctico 3: Traumatismo Abdominal</h4>
-    <p><strong>Situación:</strong> Un niño de 10 años sufre un accidente de tráfico y presenta dolor abdominal intenso.</p>
-    <h5>Evaluación Inicial:</h5>
-    <ul>
-        <li>Evaluar la presencia de dolor abdominal, distensión y signos de shock, como palidez y sudoración.</li>
-        <li>Inmovilizar la columna cervical para prevenir lesiones adicionales.</li>
-        <li>Asegurar la vía aérea utilizando un Guedel si está inconsciente y administrar ventilación con Ambú si es necesario para mantener la saturación.</li>
-        <li>Buscar signos de hemorragia interna, como hematomas en el abdomen o sensibilidad extrema.</li>
-        <li>Comunicar la situación a la central de coordinación 061 para recibir instrucciones adicionales y preparar el traslado.</li>
-    </ul>
-    <h5>Manejo In Situ:</h5>
-    <ul>
-        <li>Administrar oxígeno si es necesario para mejorar la oxigenación.</li>
-        <li>Controlar la hemorragia externa aplicando presión directa en cualquier herida visible.</li>
-        <li>Monitorizar los signos vitales, incluyendo la frecuencia cardíaca, la presión arterial y la saturación de oxígeno.</li>
-        <li>Mantener al niño en una posición cómoda y segura mientras se prepara para el traslado.</li>
-    </ul>
-    <h5>Traslado:</h5>
-    <ul>
-        <li>Continuar administrando oxígeno y monitorizando los signos vitales durante el traslado.</li>
-        <li>Colocar un collarín cervical correctamente para inmovilizar la columna cervical.</li>
-        <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
-    </ul>
-
-    <h4>Caso Práctico 4: Traumatismo Musculoesquelético</h4>
-    <p><strong>Situación:</strong> Un niño de 7 años sufre una fractura de fémur en un accidente de juego.</p>
-    <h5>Evaluación Inicial:</h5>
-    <ul>
-        <li>Evaluar la presencia de fracturas, deformidades y dolor en la extremidad afectada.</li>
-        <li>Inmovilizar la columna cervical para prevenir lesiones adicionales.</li>
-        <li>Asegurar la vía aérea utilizando un Guedel si está inconsciente y administrar ventilación con Ambú si es necesario para mantener la saturación.</li>
-        <li>Buscar signos de hemorragia o lesiones adicionales en la extremidad.</li>
-        <li>Comunicar la situación a la central de coordinación 061 para recibir instrucciones adicionales y preparar el traslado.</li>
-    </ul>
-    <h5>Manejo In Situ:</h5>
-    <ul>
-        <li>Inmovilizar la fractura utilizando una férula adecuada para niños.</li>
-        <li>Aplicar hielo en la zona afectada para reducir la inflamación y el dolor.</li>
-        <li>Controlar la hemorragia aplicando presión directa en cualquier herida visible.</li>
-        <li>Monitorizar los signos vitales, incluyendo la frecuencia cardíaca, la presión arterial y la saturación de oxígeno.</li>
-        <li>Mantener al niño en una posición cómoda y segura mientras se prepara para el traslado.</li>
-    </ul>
-    <h5>Traslado:</h5>
-    <ul>
-        <li>Continuar monitorizando los signos vitales durante el traslado.</li>
-        <li>Colocar un collarín cervical correctamente para inmovilizar la columna cervical.</li>
-        <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
-    </ul></p>
-<!DOCTYPE html>
-<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -2757,8 +2635,14 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
             line-height: 1.6;
             margin: 20px;
         }
-        h1, h2, h3 {
-            color: #2F4F4F;
+        h1 {
+            color: #FFA500; /* Azul oscuro */
+        }
+        h2 {
+            color: #FF8C00; /* Color naranja */
+        }
+        h3 {
+            color: #4F83CC; /* Verde pistacho */
         }
         ul {
             list-style-type: none;
@@ -2772,6 +2656,8 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ max-width: 1200px; 
+    margin: 0 auto;
         }
         .important {
             background-color: #ffdddd;
@@ -2857,13 +2743,7 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
 
 </body>
 </html>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Guía de Politrauma para TES</p>
-        <p>Aviso: No nos hacemos responsables por la exactitud de los datos presentados en esta página.</p>
-    </footer>
-</section>
+       
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -2893,9 +2773,18 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
         });
     </script>
 
-
+ </section>
+   
+    <footer>
+        <p>&copy; 2024 Guía de Politrauma para TES</p>
+        <p>Aviso: No nos hacemos responsables por la exactitud de los datos presentados en esta página.</p>
+    </footer>
+</section>
 </body>
 </html>
 
+</body>
+</html>
+    
 Readme: en el shock neurogenico no se que hay de administración de líquidos e intubación. 
 
