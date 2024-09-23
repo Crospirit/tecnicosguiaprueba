@@ -60,7 +60,7 @@
             color: #003366; /* Azul oscuro */
         }
         h2 {
-            color: #ff6600; /* Naranja */
+            color: #1e90ff; /* Azul Dodger */
         }
         h3 {
             color: #336699; /* Azul más claro */
@@ -134,7 +134,7 @@
             color: #003366; /* Azul oscuro */
         }
         h2 {
-            color: #ff6600; /* Naranja */
+            color: #ff0000; /* Rojo */
         }
         h3 {
             color: #003366; /* Azul oscuro */
@@ -205,6 +205,7 @@
             <h2>Enfoque ABCDE</h2>
             <p>El enfoque ABCDE es una herramienta fundamental en la valoración inicial de pacientes en situaciones de emergencia. Este método permite a los Técnicos en Emergencias Sanitarias (TES) evaluar de manera sistemática y rápida el estado del paciente, priorizando las intervenciones necesarias para estabilizarlo.</p>
     <h4>Enfoque ABCDE</h4>
+
     <ol>
         <li><strong>A - Airway (Vía aérea)</strong>:
             <ul>
@@ -218,14 +219,82 @@
                 <li>Evaluar la frecuencia y calidad de la respiración.</li>
                 <li>Observar movimientos torácicos, ruidos respiratorios y uso de músculos accesorios.</li>
                 <li>Administrar oxígeno si es necesario.</li>
+
             </ul>
         </li>
+
+   </table>
+    <h4>Frecuencias Respiratorias (FR) por Edad</h4>
+    <table border="1">
+        <tr>
+            <th>Edad</th>
+            <th>Frecuencia Respiratoria (respiraciones por minuto)</th>
+        </tr>
+        <tr>
+            <td>Recién nacidos (hasta 6 meses)</td>
+            <td>30-60</td>
+        </tr>
+        <tr>
+            <td>Lactantes mayores (6 meses a 1 año)</td>
+            <td>24-40</td>
+        </tr>
+        <tr>
+            <td>Preescolares (1 a 3 años)</td>
+            <td>22-34</td>
+        </tr>
+        <tr>
+            <td>Escolares (6 a 12 años)</td>
+            <td>18-30</td>
+        </tr>
+        <tr>
+            <td>Adultos (mayores de 18 años)</td>
+            <td>12-20</td>
+        </tr>
+    </table>
+
         <li><strong>C - Circulation (Circulación)</strong>:
             <ul>
                 <li>Comprobar el pulso, color de la piel y temperatura.</li>
                 <li>Evaluar signos de hemorragia y controlarla si es necesario.</li>
                 <li>Iniciar maniobras de reanimación cardiopulmonar (RCP) si no hay pulso.</li>
             </ul>
+</table>
+
+    <h4>Frecuencia Cardiaca (Fc) por edad</h4>
+    <table border="1">
+        <tr>
+            <th>Edad</th>
+            <th>Frecuencia Cardíaca (latidos por minuto)</th>
+        </tr>
+        <tr>
+            <td>Recién nacidos (0 a 28 días)</td>
+            <td>100-205</td>
+        </tr>
+        <tr>
+            <td>Lactantes (28 días a 1 año)</td>
+            <td>100-180</td>
+        </tr>
+        <tr>
+            <td>Niños pequeños (1 a 3 años)</td>
+            <td>98-140</td>
+        </tr>
+        <tr>
+            <td>Preescolares (3 a 5 años)</td>
+            <td>80-120</td>
+        </tr>
+        <tr>
+            <td>Escolares (5 a 12 años)</td>
+            <td>75-118</td>
+        </tr>
+        <tr>
+            <td>Adolescentes (a partir de 13 años)</td>
+            <td>60-100</td>
+        </tr>
+        <tr>
+            <td>Adultos (18 años en adelante)</td>
+            <td>60-100</td>
+        </tr>
+    </table>
         </li>
         <li><strong>D - Disability (Discapacidad)</strong>:
             <ul>
@@ -252,7 +321,32 @@
     </ul>
         </section>
         <section id="escalas">
-            <h2>Escalas de valoración</h2>
+<h2>Escalas de valoración</h2>
+<h3>Escala AVDN</h3>
+
+<table border="1">
+  <tr>
+    <th>Nivel</th>
+    <th>Descripción</th>
+  </tr>
+  <tr>
+    <td>Alerta (A)</td>
+    <td>El paciente está despierto y puede interactuar de manera coherente. Puede estar desorientado, pero responde a estímulos normales.</td>
+  </tr>
+  <tr>
+    <td>Verbal (V)</td>
+    <td>El paciente no está completamente despierto, pero responde a estímulos verbales. Puede abrir los ojos, hablar o moverse en respuesta a la voz.</td>
+  </tr>
+  <tr>
+    <td>Dolor (D)</td>
+    <td>El paciente no responde a estímulos verbales, pero sí a estímulos dolorosos. Se puede aplicar un pellizco o una compresión en el músculo trapecio para evaluar la respuesta.</td>
+  </tr>
+  <tr>
+    <td>No responde (N)</td>
+    <td>El paciente no responde a ningún tipo de estímulo, ni verbal ni doloroso. Indica un nivel de conciencia muy bajo o inconsciencia total.</td>
+  </tr>
+</table>
+
             
             <p> <h3>Escala de Coma de Glasgow (GCS)</h3>
     <table border="1">
@@ -2017,30 +2111,6 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
     <li>Accesorios: Se suministra con una bolsa de transporte y un manual de utilización.</li>
 </ol>
 
-<h6>Guía de Utilización Técnica</h6>
-<ol>
-    <li>Preparación:
-        <ul>
-            <li>Colocar el Emerkend sobre una superficie plana y asegurarse de que esté limpio y en buen estado.</li>
-        </ul>
-    </li>
-    <li>Colocación del paciente:
-        <ul>
-            <li>Utilizar una camilla de pala o tabla espinal para trasladar al paciente al Emerkend.</li>
-            <li>Alinear y centrar correctamente al paciente en el dispositivo.</li>
-        </ul>
-    </li>
-    <li>Inmovilización:
-        <ul>
-            <li>Utilizar las cintas de colores y los cierres de liberación rápida para asegurar al paciente en su lugar.</li>
-            <li>Colocar inmovilizadores cervicales si es necesario.</li>
-        </ul>
-    </li>
-    <li>Extracción:
-        <ul>
-            <li>Levantar y extraer al paciente utilizando las asas de transporte del Emerkend.</li>
-            <li>Asegurarse de que el paciente esté inmovilizado durante todo el proceso de extracción.</li>
-        </ul>
     </li>
 </ol>
 
@@ -2083,7 +2153,7 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <section id="Movilizacion">
  <h2>Guía Completa de Movilización en Pacientes Politraumatizados</h2>
 
-    <h3>1. Inmovilización de la Columna Vertebral</h3>
+    <h3> Inmovilización de la Columna Vertebral</h3>
     <p><strong>Descripción:</strong> Es crucial inmovilizar la columna vertebral para prevenir daños adicionales. Esto se logra utilizando un collarín cervical y una tabla espinal.</p>
     <p><strong>Procedimiento:</strong></p>
     <ol>
@@ -2091,8 +2161,28 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>Deslizar cuidadosamente la tabla espinal debajo del paciente, asegurándose de mantener la alineación de la columna.</li>
         <li>Asegurar al paciente con correas para evitar movimientos durante el traslado.</li>
     </ol>
+<h3> Puente Holandés</h3>
 
-    <h3>2. Técnica del Log Roll</h3>
+<p>Sistema de movilización rápida mediante un levantamiento en bloque de la víctima, en la que el paciente queda entre las piernas de los sanitarios que colocan sus manos a ambos lados de éste, haciendo un mínimo levantamiento, mientras otro sanitario desliza el tablero espinal o la camilla por debajo del paciente.</p>
+
+<h4>Consideraciones previas:</h4>
+
+<p>Indicaciones: Situaciones de emergencia o peligro con necesidad de movilización de urgencia en espacio reducido para el uso de material específico (camilla de cuchara, tablero espinal, colchón de vacío).</p>
+
+<h4>Técnica:</h4>
+
+<ul>
+  <li>Coloque, previamente, el collarín cervical.</li>
+  <li>Realice la técnica con al menos cinco sanitarios.</li>
+  <li>Uno de los sanitarios se coloca a la cabeza del paciente, mirando hacia los pies del mismo, realizando control cervical y dirigiendo la maniobra.</li>
+  <li>Tres sanitarios se colocan sobre el paciente, con las piernas abiertas una a cada lado del mismo, mirando hacia su cabeza, de manera que uno se ponga sobre los hombros, el otro sobre la pelvis y el tercero, a la altura de las piernas.</li>
+  <li>Los sanitarios deben sujetar al paciente lateralmente de los hombros, pelvis y piernas (pantorrillas), con una mano a cada lado, que harán de base para su elevación.</li>
+  <li>A la orden del sanitario colocado en la cabeza, se levanta al paciente lo suficiente para pasar por debajo la camilla con la cual se realiza la recogida definitiva, manteniendo en todo momento el eje cráneo-cérvico-dorsal y miembros inferiores.</li>
+  <li>El quinto sanitario será el encargado de deslizar por debajo la camilla.</li>
+  <li>Una vez colocado sobre la camilla, realice la técnica adecuada para la inmovilización y movilización según su procedimiento.</li>
+</ul>
+
+    <h3> Técnica del Log Roll</h3>
     <p><strong>Descripción:</strong> Esta técnica se utiliza para girar al paciente de manera segura.</p>
     <p><strong>Procedimiento:</strong></p>
     <ol>
@@ -2102,7 +2192,44 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>El movimiento debe ser coordinado y en bloque para evitar cualquier torsión de la columna.</li>
     </ol>
 
-    <h3>3. Uso de la Camilla de Cuchara</h3>
+    
+
+  
+
+    
+
+    <h3>Volteo Lateral</h3>
+
+<p>El volteo lateral es una técnica utilizada para girar al paciente de manera segura, manteniendo la alineación de la columna vertebral y permitiendo la inspección de la espalda y la colocación de dispositivos como el tablero espinal.</p>
+
+<h4>Consideraciones Previas</h4>
+
+<p>Indicaciones: Situaciones de emergencia o peligro con necesidad de movilización de urgencia en espacio reducido para el uso de material específico (camilla de cuchara, tablero espinal, colchón de vacío).</p>
+
+<h4>Técnica</h4>
+
+<ul>
+  <li>Coloque, previamente, el collarín cervical.</li>
+  <li>Realice la técnica con al menos tres personas.</li>
+  <li>Una persona se coloca a la cabeza del paciente, estabilizando la cabeza y el cuello.</li>
+  <li>Dos personas se colocan a lo largo del cuerpo del paciente, una a la altura de los hombros y la otra a la altura de las caderas.</li>
+  <li>A la orden de la persona que estabiliza la cabeza, girar al paciente en bloque hacia un costado, manteniendo la alineación de la columna vertebral.</li>
+  <li>Inspeccionar la espalda del paciente y colocar el tablero espinal debajo del mismo.</li>
+  <li>Girar al paciente de nuevo en bloque sobre el tablero espinal.</li>
+</ul>
+
+<p>El movimiento debe ser coordinado y en bloque para evitar cualquier torsión de la columna.</p
+
+
+  <h3> Transferencia a la Camilla Rígida</h3>
+    <p><strong>Descripción:</strong> Una vez inmovilizado, el paciente se transfiere a una camilla rígida para su transporte.</p>
+    <p><strong>Procedimiento:</strong></p>
+    <ol>
+        <li>Colocar al paciente sobre la camilla rígida.</li>
+        <li>Asegurarlo con correas para evitar movimientos durante el traslado.</li>
+        <li>Es importante que el paciente esté bien asegurado para evitar desplazamientos durante el transporte.</li>
+    </ol>
+<h3> Uso de la Camilla de Cuchara</h3>
     <p><strong>Descripción:</strong> Esta camilla permite recoger al paciente sin necesidad de moverlo demasiado.</p>
     <p><strong>Procedimiento:</strong></p>
     <ol>
@@ -2111,34 +2238,7 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>Es ideal para pacientes que no pueden ser movidos en bloque.</li>
     </ol>
 
-    <h3>4. Transferencia a la Camilla Rígida</h3>
-    <p><strong>Descripción:</strong> Una vez inmovilizado, el paciente se transfiere a una camilla rígida para su transporte.</p>
-    <p><strong>Procedimiento:</strong></p>
-    <ol>
-        <li>Colocar al paciente sobre la camilla rígida.</li>
-        <li>Asegurarlo con correas para evitar movimientos durante el traslado.</li>
-        <li>Es importante que el paciente esté bien asegurado para evitar desplazamientos durante el transporte.</li>
-    </ol>
-
-    <h3>5. Uso de Férulas</h3>
-    <p><strong>Descripción:</strong> Si el paciente tiene fracturas, se deben utilizar férulas para inmovilizar las extremidades afectadas.</p>
-    <p><strong>Procedimiento:</strong></p>
-    <ol>
-        <li>Colocar la férula alrededor de la extremidad fracturada.</li>
-        <li>Ajustarla para inmovilizar la zona afectada.</li>
-        <li>Las férulas deben ser aplicadas antes de cualquier movimiento para evitar el agravamiento de las fracturas.</li>
-    </ol>
-
-    <h3>6. Volteo Lateral</h3>
-    <p><strong>Descripción:</strong> Esta técnica se utiliza para girar al paciente de decúbito supino a lateral.</p>
-    <p><strong>Procedimiento:</strong></p>
-    <ol>
-        <li>Colocarse al lado del paciente y, con la ayuda de al menos dos personas más, girar al paciente unos 45°.</li>
-        <li>Una cuarta persona coloca el tablero espinal sobre la espalda del paciente.</li>
-        <li>Luego, bajar de nuevo el conjunto paciente-tabla hasta la posición de decúbito supino.</li>
-    </ol>
-
-    <h3>7. Uso del Colchón de Vacío</h3>
+    <h3>Uso del Colchón de Vacío</h3>
     <p><strong>Descripción:</strong> El colchón de vacío es un dispositivo utilizado para la inmovilización y movilización de pacientes politraumatizados.</p>
     <p><strong>Procedimiento:</strong></p>
     <ol>
@@ -2149,7 +2249,16 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>Conectar una bomba para retirar el aire del colchón, permitiendo que se adapte a la forma del paciente y se endurezca.</li>
     </ol>
 
-    <h3>8. Uso Combinado de Férulas de Vacío y Colchón de Vacío</h3>
+
+<h3> Uso de Férulas</h3>
+    <p><strong>Descripción:</strong> Si el paciente tiene fracturas, se deben utilizar férulas para inmovilizar las extremidades afectadas.</p>
+    <p><strong>Procedimiento:</strong></p>
+    <ol>
+        <li>Colocar la férula alrededor de la extremidad fracturada.</li>
+        <li>Ajustarla para inmovilizar la zona afectada.</li>
+        <li>Las férulas deben ser aplicadas antes de cualquier movimiento para evitar el agravamiento de las fracturas.</li>
+    </ol>
+    <h3> Uso Combinado de Férulas de Vacío y Colchón de Vacío</h3>
     <p><strong>Descripción:</strong> Es posible utilizar férulas de vacío al mismo tiempo que el colchón de vacío para proporcionar una inmovilización más completa y segura.</p>
     <p><strong>Procedimiento:</strong></p>
     <ol>
@@ -2206,6 +2315,20 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li><strong>Desabrochar la correa del casco:</strong> Desabrochar la correa de la barbilla del casco.</li>
         <li><strong>Retirada del casco:</strong> La persona que está detrás del paciente agarra el casco con ambas manos y lo retira lentamente hacia arriba y hacia afuera de la cabeza del paciente. Si el casco se atasca, no forzarlo; estabilizar nuevamente la cabeza y el cuello y volver a intentarlo.</li>
     </ol>
+<h3>Enlaces de interés</h3>
+<ul>
+<li><a href="https://extranet.sergas.es/catpb/Docs/cas/Publicaciones/Docs/UrgSanitarias/PDF-2786-es.pdf">Actualizaciones bibliográficas
+ISSN: 2387-1881en urgencias prehospitalarias</a></li>
+
+<li><a href="https://enfermeriadeurgencias.com/wp-content/uploads/2024/08/inmovilizacion-emergencias.pdf">Revisión eficacia y contraindicaciones técnicas de inmovilización</a></li>
+
+<li><a href="https://youtu.be/c7B75wSPyPo">Tracción mandibular y frente mentón</a></li>
+
+<li><a href="https://youtu.be/t3i6GQPYJfk">Colocación collarín rígido</a></li>
+
+<li><a href="https://www.youtube.com/watch?v=isJH-8Xlaxc">Tipos de colocación con cinchas al tablero espinal</a></li>
+ </ul>
+
         <section id="psicosocial">
             <h2>Técnicas de Apoyo Psicosocial</h2>
             <h4>Introducción</h4>
@@ -2230,9 +2353,184 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
 
     <h5>Provisión de Información</h5>
     <p>Proporcionar información clara sobre lo que está sucediendo y los próximos pasos puede ayudar a los familiares a sentirse más en control de la situación (CMHCM, 2020).</p>
-        </section>
+       </style>
+</body>
+</html>
+ </section>
         <section id="simulacros">
             <h2>Simulacros</h2>
+ <h1>Caso Práctico: TCE y Fractura de Extremidad en Adulto</h1>
+
+    <h3>Paciente:</h3>
+    <p>Varón, aproximadamente 25 años, encontrado inconsciente tras una caída de moto en la carretera Fonsagrada-Lugo.</p>
+
+    <h3>Situación inicial:</h3>
+    <ul>
+        <li>El servicio de emergencias 061 avisa a los técnicos de la ambulancia debido a la proximidad (5 minutos) y solicita que acudan inmediatamente.</li>
+        <li>El equipo médico y de enfermería del PAC llegará más tarde, ya que se encuentra en un domicilio.</li>
+        <li>Hay niebla, lo que impide el vuelo del helicóptero.</li>
+        <li>Las Fuerzas de Orden Público (FOP) se desplazan desde Castroverde.</li>
+    </ul>
+
+    <h3>Medidas de seguridad y manejo de la escena:</h3>
+    <ol>
+        <li>
+            <strong>Evaluación de la escena:</strong>
+            <ul>
+                <li>Verificar que la escena es segura antes de intervenir. Esto incluye la señalización, el uso de chalecos reflectantes, la delimitación del área y la evaluación de riesgos.</li>
+                <li>El acceso al lugar del accidente debe ser por el camino más seguro, corto y rápido.</li>
+                <li>Iniciar una valoración inmediata y global del suceso.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Técnico de transporte:</strong>
+            <ul>
+                <li>Si el equipo sanitario llega antes que las Fuerzas y Cuerpos de Seguridad del Estado, el técnico deberá balizar la zona.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Medidas de seguridad:</strong>
+            <ul>
+                <li>Señalización correcta e iluminación del lugar. Aparcar en el arcén, a más de 20 metros del accidente.</li>
+                <li>Prevención de accidentes secundarios: el personal debe caminar en sentido contrario a la circulación.</li>
+                <li>Evaluar la posibilidad de riesgos añadidos.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Evaluación ABCDE del paciente:</h3>
+    <ol>
+        <li>
+            <strong>A - Airway (Vía aérea):</strong>
+            <ul>
+                <li>El paciente tiene sangre en la cavidad oral que compromete la vía aérea.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>B - Breathing (Respiración):</strong>
+            <ul>
+                <li>El paciente presenta dificultad respiratoria, con una saturación de oxígeno (SO2) del 84%.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>C - Circulation (Circulación):</strong>
+            <ul>
+                <li>Comprobar el pulso, la frecuencia cardíaca (110 lpm) y la presión arterial (80/45 mmHg).</li>
+                <li>Detectar hemorragias. El paciente tiene una fractura abierta en la tibia.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>D - Disability (Discapacidad):</strong>
+            <ul>
+                <li>Evaluar el estado neurológico mediante la Escala de Coma de Glasgow. El paciente tiene una puntuación de 3, indicando un coma profundo.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>E - Exposure (Exposición):</strong>
+            <ul>
+                <li>Exponer al paciente para buscar otras lesiones y mantener la temperatura corporal.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Intervenciones iniciales:</h3>
+    <ol>
+        <li>
+            <strong>Comunicación con la Central del 061:</strong>
+            <ul>
+                <li>Informar sobre la situación, puntuación de Glasgow, signos vitales y todo lo detectado durante la evaluación. La central proporciona las siguientes indicaciones:</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Retirada del casco:</strong>
+            <ul>
+                <li>Se realiza con cuidado entre dos personas: una estabiliza la cabeza y el cuello, la otra retira el casco. Se observa otorragia (sangrado del oído).</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Aspiración:</strong>
+            <ul>
+                <li>Aspirar la sangre de la cavidad oral para evitar la aspiración.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Inmovilización cervical:</strong>
+            <ul>
+                <li>Aplicar un collarín cervical rígido.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Apertura de vías respiratorias:</strong>
+            <ul>
+                <li>Realizar tracción mandibular sin movilizar el cuello.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Colocación de cánula de Guedel:</strong>
+            <ul>
+                <li>Colocar si es necesario para mantener la vía aérea.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Administración de oxígeno:</strong>
+            <ul>
+                <li>Administrar oxígeno suplementario a través de una mascarilla con reservorio.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Control de hemorragias:</strong>
+            <ul>
+                <li>Lavar la herida con suero, aplicar un vendaje estéril y colocar una férula para inmovilizar la fractura abierta en la tibia.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Monitorización:</strong>
+            <ul>
+                <li>Monitorizar la saturación de oxígeno, la frecuencia cardíaca y la presión arterial.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h3>Cambio en el estado del paciente:</h3>
+    <ul>
+        <li><strong>Evaluación:</strong> Antes del traslado, el paciente disminuye su frecuencia respiratoria a 8 rpm y su saturación baja al 75%.</li>
+        <li><strong>Intervención:</strong> Iniciar ventilación con BVM (ambú) a una frecuencia aproximada de 18 rpm y conectar oxígeno al BVM para mejorar la oxigenación.</li>
+    </ul>
+
+    <h3>Llegada del equipo médico:</h3>
+    <ul>
+        <li><strong>Evaluación:</strong> El equipo médico llega antes del traslado. Se les transmite toda la información relevante sobre el estado del paciente y las intervenciones realizadas.</li>
+    </ul>
+
+    <h3>Traslado del paciente:</h3>
+    <ol>
+        <li>
+            <strong>Camilla de palas:</strong>
+            <ul>
+                <li>Utilizar una camilla de palas para transferir al paciente al colchón de vacío.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Colchón de vacío:</strong>
+            <ul>
+                <li>Este proporciona una inmovilización adecuada y se adapta al cuerpo del paciente, reduciendo el riesgo de movimientos indeseados.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Cabecera elevada:</strong>
+            <ul>
+                <li>Puede ser beneficiosa para reducir la presión intracraneal en pacientes con TCE.</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Comunicación continua con el 061:</strong>
+            <ul>
+                <li>Mantener informado al 061 sobre la evolución del paciente, signos vitales, intervenciones realizadas y cualquier cambio en su estado.</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
             <h3>Pediatría</h3>
             <p><h3>Casos Prácticos de Atención Politrauma en Pediatría</h3>
 
@@ -2260,6 +2558,120 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
         <li>Continuar monitorizando los signos vitales durante el traslado.</li>
     </ul>
+ <title>Caso Clínico: Traumatismo torácico y fractura de fémur en el monte</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #2F4F4F;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li::before {
+            content: "• ";
+            color: #555;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .important {
+            background-color: #ffffcc;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #ffcc00;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Caso clínico: Traumatismo torácico y fractura de fémur en el monte</h1>
+
+        <h2>Paciente:</h2>
+        <p>Varón adulto, encontrado tras caer de un roble mientras cortaba ramas.</p>
+
+        <h2>Situación inicial:</h2>
+        <p>El 061 envía una ambulancia desde Navia de Suarna, paciente consciente con dificultad respiratoria. El equipo del PAC se dirige al lugar en taxi. El helicóptero no puede volar debido al ocaso del sol. Los técnicos de la ambulancia deben recorrer un camino pendiente de 500 metros a pie, ya que no es transitable con la ambulancia. En el lugar hay 6 personas y un tractor con remolque.</p>
+
+        <div class="important">
+            <strong>Relato del hijo:</strong>
+            <p>“Viñemos a tardiña a leña porque polo día fixo moita calor, e ahora subiuse a un carballo cortar unha rama e caeu, avisei o 061 e meus veciños e dixeronme que iban mandar a ambulancia, pero que o médico viña de Becerreá e ainda van tardar. Está aquí tirado e respira mal, nós non o movemos. Ten moita dor, debe ter a perna rota”.</p>
+        </div>
+
+        <h2>Evaluación inicial y medidas de seguridad</h2>
+        <h3>1. Evaluación de la escena:</h3>
+        <ul>
+            <li>Asegurarse de que la escena es segura antes de intervenir. (árboles, cortados, inseguridad del terreno, etc)</li>
+            <li>Coordinar con los vecinos presentes para mantener el área despejada y segura.</li>
+        </ul>
+
+        <h2>Evaluación ABCDE</h2>
+        <h3>1. A - Airway (Vía aérea)</h3>
+        <p>Evaluación: Comprobar si la vía aérea está despejada. El paciente tiene un Glasgow de 14, lo que indica que está consciente y puede mantener su vía aérea.</p>
+
+        <h3>2. B - Breathing (Respiración)</h3>
+        <p>Evaluación: El paciente presenta asimetría torácica y crepitantes a la palpación, lo que sugiere un posible neumotórax o fracturas costales. La saturación de oxígeno (SO2) es del 84%.</p>
+
+        <h3>3. C - Circulation (Circulación)</h3>
+        <p>Evaluación: Comprobar el pulso, la frecuencia cardíaca (100 lpm) y la presión arterial (95/55 mmHg). El paciente está pálido, lo que puede indicar hipovolemia.</p>
+
+        <h3>4. D - Disability (Discapacidad)</h3>
+        <p>Evaluación: Evaluar el estado neurológico utilizando la Escala de Coma de Glasgow (GCS). El paciente tiene una puntuación de Glasgow de 14: Apertura ocular 4, Verbal 4 (ligeramente obnubilado, se queja de dolor, no recuerda la caída), Motora 6.</p>
+
+        <h3>5. E - Exposure (Exposición)</h3>
+        <p>Evaluación: Exponer al paciente para buscar otras lesiones. Aparenta tener una fractura de fémur desplazada. (Informar al 061 de la situación).</p>
+
+        <h2>Intervención y traslado</h2>
+        <h3>1. Inmovilización y preparación para el traslado:</h3>
+        <ul>
+            <li>Inmovilizar la columna cervical con collarín rígido.</li>
+            <li>Aplicar un vendaje estéril y una férula para inmovilizar la fractura desplazada del fémur.</li>
+            <li>Colocar al paciente en una camilla de palas y luego transferirlo al colchón de vacío para mayor comodidad durante el traslado en el remolque del tractor.</li>
+            <li>Colocar el colchón de vacío sobre el tablero espinal para asegurar una inmovilización adecuada durante todo el proceso.</li>
+            <li>Utilizar el tractor con remolque para trasladar al paciente hasta la ambulancia, asegurándose de que esté bien inmovilizado durante el traslado.</li>
+            <li>Monitorizar continuamente los signos vitales del paciente durante el traslado.</li>
+            <li>Administrar oxígeno suplementario y ajustar la intervención según sea necesario.</li>
+        </ul>
+
+        <h3>2. Comunicación con el equipo médico:</h3>
+        <ul>
+            <li>Informar al 061 sobre la situación del paciente, incluyendo la Glasgow, signos vitales, intervenciones realizadas y cualquier cambio en el estado del paciente.</li>
+            <li>Coordinar con el equipo médico para recibir instrucciones adicionales y preparar el traslado al hospital.</li>
+        </ul>
+
+        <h2>Consideraciones adicionales</h2>
+        <ul>
+            <li>No se requiere la colocación de una cánula de Guedel ya que la vía aérea está despejada y el paciente tiene un Glasgow de 14.</li>
+            <li>Administrar oxígeno suplementario a través de una mascarilla con reservorio para mejorar la oxigenación.</li>
+            <li>Monitorizar la saturación de oxígeno con un pulsioxímetro.</li>
+            <li>No apretar demasiado el colchón de vacío en el tórax para evitar comprometer la respiración.</li>
+            <li>Controlar cualquier hemorragia externa.</li>
+            <li>Monitorizar el nivel de consciencia y buscar signos de deterioro neurológico.</li>
+            <li>Cubrir al paciente con mantas para evitar la hipotermia.</li>
+            <li>Realizar una evaluación completa del cuerpo para identificar otras posibles lesiones.</li>
+            <li>Manta térmica.</li>
+        </ul>
+
+        <h3>Coordinación del equipo:</h3>
+        <p>Asegurarse de que todo el equipo de emergencia esté bien coordinado y que se mantenga una comunicación clara y constante durante todo el proceso.</p>
+
+        <h3>Evaluación continua:</h3>
+        <p>Evaluar continuamente la condición del paciente y ajustar las intervenciones según sea necesario para optimizar la oxigenación y la perfusión.</p>
+
+        <h3>Bajar la bala de oxígeno:</h3>
+        <p>Acordarse de bajar la bala de oxígeno y mascarillas para asegurar el suministro continuo durante el traslado (previamente la central nos dijo que tenía dificultad respiratoria).</p>
+
+        <h3>Signos de shock hipovolémico:</h3>
+        <p>Estar atentos a signos de shock hipovolémico, como palidez, sudoración fría, taquicardia y disminución de la presión arterial.</p>
+
+    </div>
 
     <h4>Caso Práctico 2: Traumatismo Torácico</h4>
     <p><strong>Situación:</strong> Un niño de 12 años sufre una caída desde un árbol y presenta dificultad respiratoria.</p>
@@ -2333,6 +2745,118 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         <li>Colocar un collarín cervical correctamente para inmovilizar la columna cervical.</li>
         <li>Utilizar un colchón de vacío para inmovilizar al paciente y prevenir movimientos durante el traslado.</li>
     </ul></p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso Clínico: Amputación traumática de mano con apero de siega agrícola</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #2F4F4F;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li::before {
+            content: "• ";
+            color: #555;
+        }
+        .container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .important {
+            background-color: #ffdddd;
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 5px solid #ff3333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Caso clínico: Amputación traumática de mano con un apero de siega agrícola</h1>
+
+        <h2>Paciente:</h2>
+        <p>Varón adulto, 45 años, que sufre una amputación traumática de la mano derecha mientras trabaja con un apero de siega agrícola. El incidente ocurre mientras el paciente está solo en el campo, y es encontrado por un vecino unos minutos después del accidente.</p>
+
+        <h2>Situación inicial:</h2>
+        <p>El 061 recibe la llamada de emergencia a las 17:30. El paciente está consciente pero presenta hemorragia activa. La ambulancia más cercana está a 25 minutos de distancia y el helicóptero no está disponible debido a las condiciones meteorológicas. Se calcula que el traslado al hospital demorará 50 minutos. El equipo técnico del 061 está en comunicación constante con la central mientras se movilizan. En el lugar, hay un vecino que intentó frenar la hemorragia aplicando presión directa en el muñón de la mano amputada.</p>
+
+        <div class="important">
+            <strong>Relato del vecino:</strong>
+            <p>"Estaba segando y se le quedó la mano atrapada en la máquina. Cuando llegué, la mano ya no estaba, estaba a unos metros. Llamé al 061 enseguida. Le puse un trapo en el brazo porque sangraba mucho."</p>
+        </div>
+
+        <h2>Evaluación ABCDE y AVDN</h2>
+
+        <h3>1. A - Airway (Vía aérea)</h3>
+        <p>Evaluación: El paciente está consciente y mantiene la vía aérea sin obstrucción. Responde a estímulos verbales y puede hablar, aunque presenta fatiga por el dolor. Escala TES AVDN: Alerta (A). Se comunica a la central que la vía aérea está despejada y se mantiene vigilancia activa.</p>
+
+        <h3>2. B - Breathing (Respiración)</h3>
+        <p>Evaluación: El paciente respira con dificultad debido al dolor y la ansiedad, con una frecuencia respiratoria de 25 respiraciones por minuto. La saturación de oxígeno es del 92%. Se le administra oxígeno a 10 litros por minuto con mascarilla. Se comunica a la central el estado respiratorio del paciente.</p>
+
+        <h3>3. C - Circulation (Circulación)</h3>
+        <p>Evaluación: El paciente presenta una hemorragia activa en el muñón del brazo derecho, con un pulso rápido y débil (110 lpm) y presión arterial de 90/60 mmHg, sugiriendo un shock hipovolémico inicial. Se coloca un torniquete justo por encima del codo para controlar la hemorragia. Se registra la hora de aplicación del torniquete (18:00) en un lugar visible y se informa de inmediato a la central.</p>
+
+        <h3>4. D - Disability (Discapacidad)</h3>
+        <p>Evaluación neurológica con la escala TES AVDN: El paciente está en un estado Alerta (A), consciente pero claramente dolorido y algo desorientado por el shock y la pérdida de sangre. No hay signos de traumatismo craneoencefálico. Escala de Coma de Glasgow de 14.</p>
+
+        <h3>5. E - Exposure (Exposición)</h3>
+        <p>Evaluación: El brazo derecho presenta una amputación completa de la mano. Se expone al paciente para buscar otras lesiones pero no se detectan. Se cubre con mantas térmicas para prevenir la hipotermia. La mano amputada es encontrada cerca y debe ser tratada adecuadamente para un posible reimplante. El miembro amputado se envuelve en gasas estériles y se coloca dentro de una bolsa plástica, que a su vez se introduce en un recipiente con hielo. Es importante no permitir el contacto directo entre la mano y el hielo. Se informa a la central del 061 sobre el estado del miembro amputado.</p>
+
+        <h2>Intervención y traslado</h2>
+        <h3>1. Control de la hemorragia:</h3>
+        <ul>
+            <li>Se coloca el torniquete en el brazo justo por encima del codo y se registra la hora (18:00) para evitar el daño isquémico.</li>
+            <li>Se aplica presión directa con gasas estériles sobre el muñón del brazo para minimizar cualquier sangrado residual.</li>
+            <li>Se comunica a la central que la hemorragia está bajo control pero que el paciente presenta signos de shock hipovolémico.</li>
+        </ul>
+
+        <h3>2. Tratamiento del miembro amputado:</h3>
+        <ul>
+            <li>La mano amputada se envuelve en gasas estériles para proteger los tejidos.</li>
+            <li>Se coloca la mano en una bolsa de plástico sellada y luego se introduce en un recipiente con hielo, sin que el hielo toque directamente el miembro amputado.</li>
+            <li>Se comunica a la central del 061 la correcta conservación del miembro para su posible reimplante en el hospital.</li>
+        </ul>
+
+        <h3>3. Monitorización continua y traslado al hospital:</h3>
+        <ul>
+            <li>Se monitorizan los signos vitales del paciente (frecuencia cardíaca, presión arterial, frecuencia respiratoria y saturación de oxígeno).</li>
+            <li>El paciente es colocado en una camilla rígida y se asegura el brazo amputado.</li>
+            <li>Durante el traslado, se administra oxígeno a 10 litros por minuto y se mantiene al paciente cubierto con mantas para evitar hipotermia.</li>
+            <li>El equipo de emergencias informa constantemente a la central del 061 sobre el estado del paciente y recibe instrucciones adicionales.</li>
+        </ul>
+
+        <h3>4. Complicaciones durante el traslado:</h3>
+        <p>Durante el traslado, el paciente presenta un episodio de hipotensión (PA 85/50 mmHg), lo que agrava su estado de shock. Se decide aumentar la frecuencia de las evaluaciones y se mantiene comunicación directa con la central para ajustar la intervención. Se asegura que el torniquete sigue funcionando correctamente y se confirma que no hay sangrado adicional.</p>
+
+        <h2>Consideraciones adicionales</h2>
+        <ul>
+            <li>No es necesaria la colocación de una cánula de Guedel ya que el paciente mantiene la vía aérea.</li>
+            <li>Administración continua de oxígeno suplementario mediante mascarilla con reservorio.</li>
+            <li>Monitorear constantemente la hemorragia en el sitio de amputación y asegurarse de que el torniquete no permanezca más tiempo del necesario.</li>
+            <li>Evaluación continua de la consciencia del paciente para detectar signos de deterioro neurológico o shock.</li>
+            <li>Evitar la hipotermia usando mantas térmicas.</li>
+            <li>Coordinar con el hospital receptor para asegurar una pronta atención quirúrgica.</li>
+        </ul>
+
+        <h2>Evaluación continua y coordinación del equipo</h2>
+        <p>Es esencial que todo el equipo de emergencia esté bien coordinado, con una clara comunicación entre los técnicos en emergencias sanitarias y la central del 061. La evaluación continua del paciente y el ajuste de las intervenciones son críticos para mantener la estabilidad del paciente antes de llegar al hospital.</p>
+
+    </div>
+
+</body>
+</html>
         </section>
     </main>
     <footer>
@@ -2369,5 +2893,9 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
         });
     </script>
 
+
 </body>
 </html>
+
+Readme: en el shock neurogenico no se que hay de administración de líquidos e intubación. 
+
