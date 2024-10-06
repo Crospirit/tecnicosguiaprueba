@@ -3882,17 +3882,27 @@ das obras, que aquí teñen todo así daquel xeito sin amañar."</p>
     }
 </script>
 
- <script>
-        // Mostrar y ocultar el contenido
-        document.getElementById("tiposTraumaBtn").addEventListener("click", function() {
-            var tiposTrauma = document.getElementById("tiposTrauma");
-            if (tiposTrauma.style.display === "flex") {
-                tiposTrauma.style.display = "none";
-            } else {
-                tiposTrauma.style.display = "flex";
-            }
-        });
-    </script>
+<script>
+    // Mostrar y ocultar el contenido del primer botón
+    document.getElementById("tiposTraumaBtn").addEventListener("click", function() {
+        var tiposTrauma = document.getElementById("tiposTrauma");
+        if (tiposTrauma.style.display === "flex") {
+            tiposTrauma.style.display = "none";
+        } else {
+            tiposTrauma.style.display = "flex";
+        }
+    });
+
+    // Mostrar y ocultar el contenido del segundo botón
+    document.getElementById("imvBtn").addEventListener("click", function() {
+        var imv = document.getElementById("imv");
+        if (imv.style.display === "flex") {
+            imv.style.display = "none";
+        } else {
+            imv.style.display = "flex";
+        }
+    });
+</script>
 
  </section>
    
