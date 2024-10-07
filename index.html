@@ -64,6 +64,9 @@ body {
         nav a:hover {
             background-color: #388E3C; /* Verde oscuro */
         }
+.hidden {
+            display: none;
+        }
         main {
             padding: 20px;
             background-color: white;
@@ -150,7 +153,7 @@ body {
             text-align: center;
             cursor: pointer;
         }
-+3-            font-size: 12px;
++3-            font-size: 14px;
             position: relative;
             width: 100%;
             bottom: 0;
@@ -199,41 +202,40 @@ body {
 <p><strong>Enfermero en PAC Sarria</strong></p>
  </header>
     <nav>
-        <a href="#abcde">Enfoque ABCDE</a>
-        <a href="#escalas">Escalas de valoración</a>
-
+        <a href="#abcde" class="nav-link">Enfoque ABCDE</a>
+        <a href="#escalas" class="nav-link">Escalas de valoración</a>
         <div class="dropdown">
-            <button class="dropbtn" id="tiposTraumaBtn">Tipos de trauma</button>
+            <button class="dropbtn nav-link" id="tiposTraumaBtn">Tipos de trauma</button>
             <div class="dropdown-content" id="tiposTrauma">
-                <a href="#craneoencefalico">Trauma craneoencefálico</a>
-                <a href="#toracico-abdominal">Trauma torácico-abdominal</a>
-                <a href="#extremidades-pelvis">Trauma de extremidades y pelvis</a>
-                <a href="#raquimedular">Trauma raquimedular</a>
-                <a href="#termico">Trauma térmico</a>
-                <a href="#pediatrico">Trauma pediátrico</a>
-                <a href="#shock">Shock Traumático</a>
+                <a href="#craneoencefalico" class="nav-link">Trauma craneoencefálico</a>
+                <a href="#toracico-abdominal" class="nav-link">Trauma torácico-abdominal</a>
+                <a href="#extremidades-pelvis" class="nav-link">Trauma de extremidades y pelvis</a>
+                <a href="#raquimedular" class="nav-link">Trauma raquimedular</a>
+                <a href="#termico" class="nav-link">Trauma térmico</a>
+                <a href="#pediatrico" class="nav-link">Trauma pediátrico</a>
+                <a href="#shock" class="nav-link">Shock Traumático</a>
             </div>
         </div>
- <div class="dropdown">
-            <button class="dropbtn" id="imvBtn">Múltiples víctimas</button>
+        <div class="dropdown">
+            <button class="dropbtn nav-link" id="imvBtn">Múltiples víctimas</button>
             <div class="dropdown-content" id="imv">
-        <a href="#coordinacion">Central de Coordinación 061</a>
-        <a href="#víctimas">Incidentes con múltiples víctimas</a>
-        
-          </div>
+                <a href="#coordinacion" class="nav-link">Central de Coordinación 061</a>
+                <a href="#víctimas" class="nav-link">Incidentes con múltiples víctimas</a>
+            </div>
         </div>
-        <a href="#Dotación de medios materiales y humanos">Dotación de medios materiales y humanos</a>
-        <a href="#Movilizacion">Movilización</a>
-        <a href="#psicosocial">Técnicas de Apoyo Psicosocial</a>
-        <a href="#simulacros">Simulacros</a>
-        <a href="#test">Test</a>
+        <a href="#Dotación de medios materiales y humanos" class="nav-link">Dotación de medios materiales y humanos</a>
+        <a href="#Movilizacion" class="nav-link">Movilización</a>
+        <a href="#psicosocial" class="nav-link">Técnicas de Apoyo Psicosocial</a>
+        <a href="#simulacros" class="nav-link">Simulacros</a>
+        <a href="#test" class="nav-link">Test</a>
     </nav>
+
    
     
     
 </body>
 
-        <section id="abcde">
+        <section id="abcde" class="hidden">
             <h2>Enfoque ABCDE</h2>
             <p>El enfoque ABCDE es una herramienta fundamental en la valoración inicial de pacientes en situaciones de emergencia. Este método permite a los Técnicos en Emergencias Sanitarias (TES) evaluar de manera sistemática y rápida el estado del paciente, priorizando las intervenciones necesarias para estabilizarlo.</p>
     <h4>Enfoque ABCDE</h4>
@@ -370,6 +372,8 @@ body {
     </style>
 </head>
 <body>
+   
+
 
 <h2>Tabla de Inspección Técnicos en Emergencias Sanitarias (TES)</h2>
 
@@ -449,7 +453,7 @@ body {
         <li><strong>Lesiones o condiciones observadas</strong>: Descripción de cualquier trauma, lesiones o condiciones que puedan afectar al paciente.</li>
     </ul>
         </section>
-        <section id="escalas">
+        <section id="escalas" class="hidden">
 <h2>Escalas de valoración</h2>
 <h3>Escala AVDN</h3>
 
@@ -645,7 +649,7 @@ body {
     </ul></p>
 
         </section>
-        <section id="craneoencefalico">
+       <section id="craneoencefalico" class="hidden">
             <h2>Trauma craneoencefálico</h2>
             <h3>Evaluación Inicial</h3>
     <p>En el trauma craneoencefálico (TCE), la evaluación rápida y precisa es crucial para evitar complicaciones graves como la hipertensión intracraneal. El uso de la Escala de Coma de Glasgow (GCS) es indispensable para evaluar el nivel de consciencia y la gravedad de la lesión (ERC, 2021).</p>
@@ -781,7 +785,7 @@ body {
 </head>
 <body>
         </section>
-        <section id="toracico-abdominal">
+        <section id="toracico-abdominal" class="hidden">
             <h2>Trauma torácico-abdominal</h2>
            <h3>Definición y Relevancia</h3>
     <p>El trauma torácico-abdominal incluye lesiones en el tórax, abdomen, órganos internos y estructuras vasculares. Estas lesiones son una de las principales causas de muerte evitable en pacientes con trauma, debido a hemorragias internas no controladas o insuficiencia respiratoria (Fundación Pública Urxencias Sanitarias de Galicia-061, 2020).</p>
@@ -830,10 +834,11 @@ body {
 
     
         </section>
-        <section id="extremidades-pelvis">
+        <section id="extremidades-pelvis"  class="hidden">
             <h2>Trauma de extremidades y pelvis</h2>
             
             <p><h3>Introducción</h3>
+ 
     <p>El manejo de fracturas en extremidades y pelvis en el entorno prehospitalario es crucial para prevenir complicaciones y mejorar los resultados clínicos. Esta guía se basa en las mejores prácticas y guías clínicas actuales para proporcionar una atención efectiva y segura a los pacientes con fracturas en extremidades y pelvis.</p>
 
     <h3>Principios Generales</h3>
@@ -973,10 +978,12 @@ body {
     <h5> Transporte</h5>
     <ul>
         <li><strong>Transporte rápido:</strong> Traslada al paciente a un hospital lo más rapido posible.</li>
-        <li><strong>Comunicación:</strong> Informa al centro receptor sobre la condición del paciente y la parte amputada.</li
+        <li><strong>Comunicación:</strong> Informa al centro receptor sobre la condición del paciente y la parte amputada.</li>
         </section>
-        <section id="raquimedular">
-            <h2>Trauma raquimedular</h2>
+
+    <section id="raquimedular"  class="hidden">
+        <h2>Trauma raquimedular</h2>
+            
            
             <p> <h3>Definición y Relevancia</h3>
     <p>El trauma raquimedular implica lesiones en la médula espinal, que pueden provocar daños neurológicos permanentes, parálisis o incluso la muerte. La mayoría de los casos se presentan en accidentes de tráfico, caídas y lesiones deportivas. Un manejo prehospitalario adecuado es crucial para prevenir el agravamiento de las lesiones y proteger la columna vertebral.</p>
@@ -1000,9 +1007,9 @@ body {
    <p>El paciente debe ser inmovilizado como un bloque, utilizando dispositivos como tablas rígidas o colchones de vacío para asegurar la alineación de la columna. Además, se debe minimizar el tiempo de transporte al hospital para evitar el agravamiento de la lesión (Fundación Española de Traumatología y Emergencias, 2020).</p>
 
 </p>
-        </section>
-        <section id="termico">
-            <h2>Trauma térmico</h2>
+       </section>
+    <section id="termico" class="hidden">
+        <h2>Trauma térmico</h2>
             
             <p><h3>Definición y Relevancia</h3>
     <p>El trauma térmico incluye lesiones por quemaduras, exposición a temperaturas extremas (frío o calor) y descargas eléctricas. Las quemaduras graves son potencialmente mortales debido a la deshidratación, sepsis o shock. Un manejo prehospitalario rápido y adecuado es esencial para reducir la mortalidad y mejorar los resultados a largo plazo.</p>
@@ -1078,7 +1085,7 @@ body {
         <li><strong>Quemaduras Eléctricas</strong>: Asegurarse de que la fuente de electricidad esté desconectada antes de tocar al paciente. Evaluar el estado de conciencia y la respiración del paciente. Aplicar WaterJel para enfriar y proteger la zona quemada, y buscar atención médica inmediata.</li>
     </ul></p>
         </section>
-        <section id="pediatrico">
+        <section id="pediatrico"  class="hidden">
             <h2>Trauma pediátrico</h2>
             
             <p><h3>Introducción</h3>
@@ -1168,7 +1175,7 @@ body {
         </tbody>
     </table></p>
         </section>
-        <section id="shock">
+        <section id="shock"  class="hidden">
             <h2>Shock Traumático</h2>
              <h3>1. Definición y Causas</h3>
     <p>El shock traumático es una condición crítica que resulta de una pérdida significativa de sangre y fluidos, llevando a una perfusión tisular inadecuada y oxigenación deficiente. Las causas principales incluyen traumatismos severos, hemorragias internas y externas, y lesiones múltiples.</p>
@@ -1252,7 +1259,7 @@ body {
         </ul>
     </p>
         </section>
-        <section id="coordinacion">
+        <section id="coordinacion" class="hidden">
             <h2>Central de Coordinación 061</h2>
             <h3>Introducción</h3>
 <p>
@@ -1298,7 +1305,7 @@ La Central de Coordinación de Urgencias Sanitarias de Galicia (061), ubicada en
 La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando un número único y fácil de recordar, 061, para coordinar de forma eficaz todos los recursos de asistencia sanitaria en situaciones críticas.
 </p>
         </section>
-        <section id="víctimas">
+        <section id="víctimas" class="hidden">
         <h2>IMV</h2>
             <h3>1. Definición de Incidente de Múltiples Víctimas (IMV)</h3>
     <p>Un IMV se refiere a situaciones de emergencia sanitaria donde la cantidad de víctimas supera la capacidad de respuesta del sistema de emergencias médicas habitual. La diferencia fundamental entre un IMV y una emergencia común es la desproporción entre la demanda de asistencia y los recursos disponibles, lo que genera caos inicial.</p>
@@ -1717,7 +1724,7 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
     <li>Se presentarán al responsable de asistencia para recibir las tareas a realizar (acompañamiento de pacientes, cambio de camillas, evacuación, transporte, etc.).</li>
 </ul>
         </section>
-        <section id="Dotación de medios materiales y humanos">
+        <section id="Dotación de medios materiales y humanos" class="hidden">
             
        <h2>Tipos de ambulancias</h2>
             
@@ -2513,9 +2520,9 @@ La CCUSG-061 busca centralizar las emergencias sanitarias de Galicia, utilizando
 
    
 
+</section> 
 
-
-        <section id="psicosocial">
+        <section id="psicosocial" class="hidden">
             <h2>Técnicas de Apoyo Psicosocial</h2>
             <h4>Introducción</h4>
     <p>El apoyo psicosocial es una parte crucial del trabajo de los Técnicos en Emergencias Sanitarias (TES). Este documento proporciona una guía sobre cómo manejar situaciones en las que los TES se encuentran con familiares de víctimas en accidentes o en domicilios.</p>
@@ -2557,12 +2564,13 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
         <li><a href="https://semicyuc.org/wp-content/uploads/2021/09/RCP-Guias-ERC-2021-01-Resumen-Traduccion-oficial-CERCP.pdf">Guías ERC actualizadas</a></li>
         <li><a href="https://www.urgenciasyemergen.com/aha-2023-actualizacion-soporte-vital-cardiovascular-avanzado/">Guías AHA actualizadas</a></li>
 
-</ul>  
+</ul> 
+</section> 
  </style>
 </body>
 </html>
- </section>
-        <section id="simulacros">
+ 
+        <section id="simulacros" class="hidden">
               <header>
        <h2>SIMULACROS</h2>
         
@@ -2627,7 +2635,7 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
 </section>
 
 
-    <section id="test">
+    <section id="test" class="hidden">
 <div class="container">
 <style>
     body {
@@ -2867,7 +2875,7 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
 
 </section>
 
-    
+ 
         
 
 <script>
@@ -2908,7 +2916,142 @@ ISSN: 2387-1881en urgencias prehospitalarias</a></li>
         }
     });
 </script>
+<script>
+    // Ocultar todas las secciones al cargar la página
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+    });
 
+    // Mostrar la sección "abcde" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#abcde"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('abcde').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "escalas" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#escalas"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('escalas').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "craneoencefalico" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#craneoencefalico"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('craneoencefalico').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "toracico-abdominal" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#toracico-abdominal"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('toracico-abdominal').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "extremidades-pelvis" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#extremidades-pelvis"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('extremidades-pelvis').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "raquimedular" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#raquimedular"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('raquimedular').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "termico" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#termico"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('termico').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "pediatrico" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#pediatrico"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('pediatrico').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "shock" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#shock"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('shock').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "coordinacion" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#coordinacion"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('coordinacion').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "víctimas" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#víctimas"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('víctimas').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "Dotación de medios materiales y humanos" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#Dotación de medios materiales y humanos"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('Dotación de medios materiales y humanos').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "Movilizacion" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#Movilizacion"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('Movilizacion').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "psicosocial" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#psicosocial"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('psicosocial').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "simulacros" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#simulacros"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('simulacros').classList.remove('hidden');
+    });
+
+    // Mostrar la sección "test" cuando se hace clic en el enlace correspondiente
+    document.querySelector('a[href="#test"]').addEventListener('click', () => {
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('hidden');
+        });
+        document.getElementById('test').classList.remove('hidden');
+    });
+</script>
  
  
     <footer>
