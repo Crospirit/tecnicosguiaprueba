@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
+  <diagram name="Página-1" id="nt4quHbTMLTVzmlNbFxd">
+    <mxGraphModel dx="1426" dy="1950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-1" value="&lt;font&gt;&lt;b style=&quot;background-color: light-dark(rgb(255, 230, 152), rgb(237, 237, 237));&quot;&gt;&lt;font&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Protocolo&lt;/font&gt; &lt;/span&gt;&lt;font style=&quot;color: light-dark(rgb(255, 86, 25), rgb(254, 109, 56)); font-size: 37px;&quot;&gt;X&lt;/font&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(254, 109, 56));&quot;&gt;ABCDE en Trauma&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-1120" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-2" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;X: Control de hemorragias masivas&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-1030" width="380" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-3" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;A: Vía aérea con control de columna cervical&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="550" y="-1030" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-4" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;B: Ventilación y oxigenación&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="560" y="-820" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-5" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;C: Circulación con control de hemorragias&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-820" width="380" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-6" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;D: Estado neurológico&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="20" y="-632" width="380" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-7" value="&lt;font style=&quot;background-color: light-dark(rgb(218, 232, 252), rgb(237, 237, 237)); color: rgb(0, 0, 0); font-size: 28px;&quot;&gt;&lt;b&gt;E: Exposición y control ambiental&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="560" y="-632" width="360" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=30.77;width=44;fillColor=light-dark(#dae8fc, #442724);strokeColor=#ae4132;" parent="1" source="w0gEsoGlDcTHTypdbfw3-2" target="w0gEsoGlDcTHTypdbfw3-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="130" as="sourcePoint" />
+            <mxPoint x="315" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=30.77;width=44;fillColor=light-dark(#dae8fc, #442724);strokeColor=#ae4132;" parent="1" source="w0gEsoGlDcTHTypdbfw3-3" target="w0gEsoGlDcTHTypdbfw3-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="230" as="sourcePoint" />
+            <mxPoint x="315" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=30.77;width=44;fillColor=light-dark(#dae8fc, #442724);strokeColor=#ae4132;" parent="1" source="w0gEsoGlDcTHTypdbfw3-4" target="w0gEsoGlDcTHTypdbfw3-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="330" as="sourcePoint" />
+            <mxPoint x="315" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=30.77;width=44;fillColor=light-dark(#dae8fc, #442724);strokeColor=#ae4132;" parent="1" source="w0gEsoGlDcTHTypdbfw3-5" target="w0gEsoGlDcTHTypdbfw3-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="430" as="sourcePoint" />
+            <mxPoint x="315" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w0gEsoGlDcTHTypdbfw3-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endWidth=58;endSize=30.77;width=44;fillColor=light-dark(#dae8fc, #442724);strokeColor=#ae4132;" parent="1" source="w0gEsoGlDcTHTypdbfw3-6" target="w0gEsoGlDcTHTypdbfw3-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="315" y="530" as="sourcePoint" />
+            <mxPoint x="315" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QpYXa1gxbtMEH69zT5Bx-2" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.policy;" parent="1" vertex="1">
+          <mxGeometry x="40" y="-510" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QpYXa1gxbtMEH69zT5Bx-4" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;National Association of Emergency Medical Technicians (NAEMT). PHTLS: Prehospital Trauma Life Support for First Responders Course Manual. 10ª ed. Burlington (MA): Jones &amp;amp; Bartlett Learning; 2025. ISBN: 9781284297560.&lt;/div&gt;&lt;div&gt;Los diagramas incluidos en este trabajo han sido desarrollados por Eloy Díaz Villaverde. Estas ilustraciones están amparadas por derechos de autor y su reproducción, distribución o uso no autorizado queda estrictamente prohibido.&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;spacingTop=-19;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-510" width="790" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
