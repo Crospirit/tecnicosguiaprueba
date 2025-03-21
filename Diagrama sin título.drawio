@@ -134,8 +134,8 @@
         <mxCell id="pkDCsX28krD35tymvUMT-9" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Comisión de Investigación. Actualizacións bibliográficas en urxencias prehospitalarias. Nº 14; Ano 2019. Fundación Pública Urxencias Sanitarias de Galicia-061. Disponible en: &lt;button style=&quot;&quot; type=&quot;button&quot;&gt;https://extranet.sergas.es/catpb/Docs/cas/Publicaciones/Docs/UrgSanitarias/PDF-2786-es.pdf&lt;/button&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;align=left;" vertex="1" parent="1">
           <mxGeometry x="-110" y="1790" width="1260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pkDCsX28krD35tymvUMT-10" value="&lt;font style=&quot;color: rgb(204, 229, 255); font-size: 50px;&quot;&gt;ELOY&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(204, 229, 255); font-size: 50px;&quot;&gt;&amp;nbsp;DÍAZ&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(204, 229, 255); font-size: 50px;&quot;&gt;&amp;nbsp;VILLAVERDE&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingRight=52;" vertex="1" parent="1">
-          <mxGeometry x="625" y="240" width="390" height="290" as="geometry" />
+        <mxCell id="pkDCsX28krD35tymvUMT-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;© Eloy Díaz Villaverde, 2025. Todos los derechos reservados. Este trabajo no puede ser reproducido, distribuido ni utilizado en ninguna forma sin el permiso expreso del titular de los derechos de autor.&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;spacingRight=52;textOpacity=30;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="405" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
